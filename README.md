@@ -38,3 +38,30 @@ A simple Node.js API that takes a number and returns interesting mathematical pr
     "digit_sum": 11,
     "fun_fact": "371 is an Armstrong number because 3^3 + 7^3 + 1^3 = 371"
 }
+```
+
+Prerequisites
+Node.js (v18 or higher)
+
+npm (v7 or higher)
+
+Nginx (for deployment)
+
+A domain name (for custom domain setup)
+
+A VPS (e.g., DigitalOcean, Linode, AWS EC2)
+
+Setup Instructions
+1. Clone the Repository
+bash
+Copy
+git clone https://github.com/your-username/number-api.git
+cd number-api
+2. Install Dependencies
+bash
+Copy
+npm install
+3. Run the API Locally
+bash
+Copy
+node index.js

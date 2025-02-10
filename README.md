@@ -52,16 +52,17 @@ A domain name (for custom domain setup)
 A VPS (e.g., DigitalOcean, Linode, AWS EC2)
 
 Setup Instructions
-1. Clone the Repository
-bash
-Copy
-git clone https://github.com/your-username/number-api.git
+1. Make DIrectoy && Clone the Repository
+```
+git clone https://github.com/oxblixxx/API.git
 cd number-api
+```
 2. Install Dependencies
-bash
-Copy
+```
 npm install
+```
 3. Run the API Locally
-bash
-Copy
+```
 node index.js
+```
+4. Open your browser, your API is accessible on the vm public-ip-address
